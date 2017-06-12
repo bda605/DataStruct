@@ -16,7 +16,7 @@ namespace Array
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frm0203());
+            Application.Run(new frm0204());
         }
     }
 }
