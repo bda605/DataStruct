@@ -63,6 +63,12 @@
     <Compile Include="frm0207.Designer.cs">
       <DependentUpon>frm0207.cs</DependentUpon>
     </Compile>
+    <Compile Include="frm02071.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm02071.Designer.cs">
+      <DependentUpon>frm02071.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frm0203.resx">
@@ -73,6 +79,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frm0207.resx">
       <DependentUpon>frm0207.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm02071.resx">
+      <DependentUpon>frm02071.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
