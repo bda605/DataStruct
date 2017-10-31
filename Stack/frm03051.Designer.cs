@@ -1,6 +1,6 @@
 ﻿namespace Stack
 {
-    partial class frm0305
+    partial class frm03051
     {
         /// <summary>
         /// Required designer variable.

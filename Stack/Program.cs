@@ -14,7 +14,7 @@ namespace Stack
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frm0305());
+            Application.Run(new frm03052());
         }
     }
 }

@@ -8,16 +8,16 @@ using System.Windows.Forms;
 
 namespace Stack
 {
-    public partial class frm0305 : Form
+    public partial class frm03051 : Form
     {
-        public frm0305()
+        public frm03051()
         {
             InitializeComponent();
         }
 
         private void frm0305_Load(object sender, EventArgs e)
         {
-            int Result, Max = 10;
+            int Result, Max = 4;
             Result = face(Max);
             MessageBox.Show(Convert.ToString(Result));
         }

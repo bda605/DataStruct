@@ -52,11 +52,17 @@
     <Compile Include="frm0304.Designer.cs">
       <DependentUpon>frm0304.cs</DependentUpon>
     </Compile>
-    <Compile Include="frm0305.cs">
+    <Compile Include="frm03051.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frm0305.Designer.cs">
-      <DependentUpon>frm0305.cs</DependentUpon>
+    <Compile Include="frm03051.Designer.cs">
+      <DependentUpon>frm03051.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm03052.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm03052.Designer.cs">
+      <DependentUpon>frm03052.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -66,8 +72,11 @@
     <EmbeddedResource Include="frm0304.resx">
       <DependentUpon>frm0304.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frm0305.resx">
-      <DependentUpon>frm0305.cs</DependentUpon>
+    <EmbeddedResource Include="frm03051.resx">
+      <DependentUpon>frm03051.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm03052.resx">
+      <DependentUpon>frm03052.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
