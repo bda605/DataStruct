@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Stack
+namespace Queue
 {
     static class Program
     {
@@ -14,7 +16,7 @@ namespace Stack
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frm03055());
+            Application.Run(new frm0402());
         }
     }
 }

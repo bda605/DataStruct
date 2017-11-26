@@ -4,13 +4,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D1B7399E-0518-41C0-BE54-CD1F3EC1AA74}</ProjectGuid>
+    <ProjectGuid>{8BF5AB94-3BEF-4B3B-BF6C-C94FC8706E5F}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Stack</RootNamespace>
-    <AssemblyName>Stack</AssemblyName>
-    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <RootNamespace>Queue</RootNamespace>
+    <AssemblyName>Queue</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -33,6 +34,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
     <Reference Include="System.Drawing" />
@@ -40,70 +45,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frm0302.cs">
+    <Compile Include="frm0402.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frm0302.Designer.cs">
-      <DependentUpon>frm0302.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frm0304.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frm0304.Designer.cs">
-      <DependentUpon>frm0304.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frm03051.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frm03051.Designer.cs">
-      <DependentUpon>frm03051.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frm03052.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frm03052.Designer.cs">
-      <DependentUpon>frm03052.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frm03053.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frm03053.Designer.cs">
-      <DependentUpon>frm03053.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frm03054.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frm03054.Designer.cs">
-      <DependentUpon>frm03054.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frm03055.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frm03055.Designer.cs">
-      <DependentUpon>frm03055.cs</DependentUpon>
+    <Compile Include="frm0402.Designer.cs">
+      <DependentUpon>frm0402.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="frm0302.resx">
-      <DependentUpon>frm0302.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frm0304.resx">
-      <DependentUpon>frm0304.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frm03051.resx">
-      <DependentUpon>frm03051.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frm03052.resx">
-      <DependentUpon>frm03052.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frm03053.resx">
-      <DependentUpon>frm03053.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frm03054.resx">
-      <DependentUpon>frm03054.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frm03055.resx">
-      <DependentUpon>frm03055.cs</DependentUpon>
+    <EmbeddedResource Include="frm0402.resx">
+      <DependentUpon>frm0402.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -123,6 +74,9 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
