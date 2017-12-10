@@ -16,7 +16,7 @@ namespace Queue
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frm0402());
+            Application.Run(new frm0403());
         }
     }
 }
